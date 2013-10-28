@@ -14,4 +14,14 @@ public class MyParaLiveTest {
         new MyParaLive().withPara();
     }
 
+    @Test
+    public void testWithRunnableEncapsulatedCallable() {
+        new MyParaLive().withRunnableEncapsulatedCallable();
+    }
+
+    @Test
+    public void testWithCallable() {
+        new MyParaLive().withCallable();
+    }
+
 }
